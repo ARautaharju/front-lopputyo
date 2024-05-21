@@ -7,8 +7,6 @@
   import Kuvakortti from '../Kuvakortti.svelte';
   import Vieraskirja from '../Vieraskirja.svelte';
 
-  export let name;
-
   // true = vieraskirja on auki
   let naytaVieraskirja = false;
 </script>
@@ -24,7 +22,6 @@
         >Sulje vieraskirja</Painike
       >
     {/if}
-    <h2>{name}</h2>
     <div class="kuvat">
       <Kuvakortti />
     </div>
